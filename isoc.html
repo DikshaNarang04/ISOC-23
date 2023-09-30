@@ -33,6 +33,7 @@
           </div>
         </li>
       </ul>
+      <img src="./moon image/moon.png" id="icon">
     </header>
 
 
@@ -86,7 +87,7 @@
   <!-- our exhibition gallery -->
   <section>
     <div class="our-gallery">
-      <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
+      <p style="color: #dbba7d; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
     </div>
     <div class="our-gallery our-gallery-container">
       <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
@@ -345,6 +346,20 @@
     <!-- Copyright -->
   </footer>
   <script src="./isoc.js"></script>
+
+  <script>
+   var icon=document.getElementById("icon");
+   icon.onclick=function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      icon.src="./sun/sun.png";
+    }
+    else{
+      icon.src="./moon image/moon.png";
+    }
+   }
+
+  </script>
 </body>
 
 </html>
