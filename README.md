@@ -15,3 +15,7 @@ It features a themed button located at the end of the navigation bar, represente
 - HTML
 - CSS
 - JavaScript
+
+### Video Demo
+
+The full video demonstration can be found in the "Issues" section of this repository.
